@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="c845b9a1-145f-49a3-b4d9-6a22583f6e3e" Title="Shapes" Url="html/242ce71e-57bd-d428-9beb-2638958f7b55.htm">
+    <HelpTOCNode Id="177e81c0-60ff-4d71-aef7-4f6bad71d526" Title="AreaCalculator - класс" Url="html/cdb8821a-7570-bee4-9d3c-92b1a1edb97d.htm">
+      <HelpTOCNode Title="AreaCalculator - конструктор" Url="html/795459de-bd0c-6eba-be86-cd13190d4a0d.htm" />
+      <HelpTOCNode Id="ef021c86-acb9-42a6-8a27-f0b8c51f67fb" Title="AreaCalculator - методы" Url="html/33998bb2-c6a6-0ea3-e719-b7fb789a6f27.htm">
+        <HelpTOCNode Id="0eb1f8ae-f2ed-41c2-975a-e7fc1ededf10" Title="Calculate - метод" Url="html/616c2177-81d1-8bfb-eb62-bd5c59b5722d.htm">
+          <HelpTOCNode Title="Calculate(Circle) - метод" Url="html/85ae0eaa-5965-e569-e4ad-a3dc365a5d76.htm" />
+          <HelpTOCNode Title="Calculate(Rectangle) - метод" Url="html/2cde3590-b6a0-34a2-6c11-a320cf382fba.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="04687bf8-9fe2-455f-be52-236a65413340" Title="Circle - класс" Url="html/c1d942f6-7e72-3b74-9490-5cb63d093c08.htm">
+      <HelpTOCNode Title="Circle - конструктор" Url="html/bcae5b44-1e1c-9216-bc5b-20bcdaef0345.htm" />
+      <HelpTOCNode Id="b8996b31-abb8-47dd-98c3-56a259807c38" Title="Circle - свойства" Url="html/aded3d90-909c-ce40-9379-11ed63302c31.htm">
+        <HelpTOCNode Title="Center - свойство" Url="html/e813f6b3-ae3e-f9de-bec9-a41682b98a4a.htm" />
+        <HelpTOCNode Title="Radius - свойство" Url="html/9890d430-1203-4342-5044-b55918689f73.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a3054c74-4ddf-486c-b191-7eac81f47945" Title="Circle - методы" Url="html/73eb45dc-7ec9-03b8-2ac5-914b0178d3d8.htm">
+        <HelpTOCNode Title="Add - метод" Url="html/558ac04f-bd50-4c4a-020b-26e135f0275b.htm" />
+        <HelpTOCNode Title="ApplyCalculator - метод" Url="html/bc43f63b-4d0a-f482-5e76-9aa3924c6006.htm" />
+        <HelpTOCNode Title="GetEnumerator - метод" Url="html/5d69eb2f-312d-c6e2-b0ab-9c285c8a248f.htm" />
+        <HelpTOCNode Title="Remove - метод" Url="html/748feb89-c576-90dc-d532-c806064b918d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="edf5a9e5-9063-4f76-9e3c-dfc76b50ccbc" Title="PerimeterCalculator - класс" Url="html/39679c2f-5abe-c365-e06c-3cf6c851febb.htm">
+      <HelpTOCNode Title="PerimeterCalculator - конструктор" Url="html/31a08149-eff1-2195-12fa-b304979adea8.htm" />
+      <HelpTOCNode Id="e97f7f59-d3ff-40a3-b3af-c2fa2669c558" Title="PerimeterCalculator - методы" Url="html/2a0c1c65-6ff3-fa87-d889-61cb8fabbfc2.htm">
+        <HelpTOCNode Id="5a58f561-e5a6-4107-9f71-78f5d80ea462" Title="Calculate - метод" Url="html/e4b4ee33-0657-6bdc-88de-326a1aed1d31.htm">
+          <HelpTOCNode Title="Calculate(Circle) - метод" Url="html/ec297bba-21d2-9fc9-349e-f4126571ba01.htm" />
+          <HelpTOCNode Title="Calculate(Rectangle) - метод" Url="html/f0cee1ec-ef0a-0d2b-7fae-0e7c3e6e0292.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fb21a714-40ae-497e-ad77-25ad72a839fb" Title="Rectangle - класс" Url="html/53ea8fbb-c475-3ae1-f586-84013308ac52.htm">
+      <HelpTOCNode Title="Rectangle - конструктор" Url="html/61020b07-5d08-21fe-5b30-d7b2eddb6170.htm" />
+      <HelpTOCNode Id="9e516e0b-b0ba-4b5f-92b9-808047c5817a" Title="Rectangle - свойства" Url="html/7d1d830f-2cf7-606c-81a3-36a6d56ae521.htm">
+        <HelpTOCNode Title="LeftTop - свойство" Url="html/07063d9f-e5d6-52cc-8aea-56d8f7e22c1f.htm" />
+        <HelpTOCNode Title="Size - свойство" Url="html/559ebb03-aa7f-c751-0649-6c3849cbf279.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="acf08356-d5fe-491b-82fa-33891be21f15" Title="Rectangle - методы" Url="html/0f878b37-4980-ff7a-ce7c-245fddec65fe.htm">
+        <HelpTOCNode Title="Add - метод" Url="html/11cd10aa-e8f6-abc8-1f05-c33961098ef0.htm" />
+        <HelpTOCNode Title="ApplyCalculator - метод" Url="html/df4f7f0e-93da-00eb-bf6b-640a0c4469ca.htm" />
+        <HelpTOCNode Title="GetEnumerator - метод" Url="html/f2da1748-d6da-979c-299e-0094e3e7a243.htm" />
+        <HelpTOCNode Title="Remove - метод" Url="html/575c90ab-0427-4596-bd52-ba1c5b508c54.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c2f3a1ad-e9a6-41df-a942-abb8d896117a" Title="Shape - класс" Url="html/fa3783be-7a77-e2ff-14d2-f6f5a0214074.htm">
+      <HelpTOCNode Title="Shape - конструктор" Url="html/a63111c8-54f0-2866-c8ac-30cfabc042bf.htm" />
+      <HelpTOCNode Id="d6ae9cfd-514a-4aea-9e74-eeeb5b6fc210" Title="Shape - методы" Url="html/23fa9a63-bd27-052a-8b3a-94e13714907a.htm">
+        <HelpTOCNode Title="Add - метод" Url="html/d5417357-1c49-ea21-0f50-2b3b7636089a.htm" />
+        <HelpTOCNode Title="ApplyCalculator - метод" Url="html/92cfc669-de20-87da-5dcf-35e5c6ec8adf.htm" />
+        <HelpTOCNode Title="GetEnumerator - метод" Url="html/601b9972-247e-a801-fc67-92f0e326b263.htm" />
+        <HelpTOCNode Title="Remove - метод" Url="html/ad1baac6-2026-98db-c61c-bae3a7e6a1e6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="44ddad40-6863-4e4b-a4a0-ee586f3e879b" Title="ShapeGroup - класс" Url="html/53ef3768-360d-a9c4-8851-b2f2e6467804.htm">
+      <HelpTOCNode Title="ShapeGroup - конструктор" Url="html/0b2bcefb-e8a5-6871-87b4-62bd7ba72d61.htm" />
+      <HelpTOCNode Id="0551d97b-287e-49a6-8eea-3ae7402d17f8" Title="ShapeGroup - свойства" Url="html/b194e599-124e-b520-c649-f0ba446aaf2a.htm">
+        <HelpTOCNode Title="GroupOperator - свойство" Url="html/29df54d4-abb6-11c7-eb93-628cb4331745.htm" />
+        <HelpTOCNode Title="Seed - свойство" Url="html/22f8d300-de62-ba4d-61cf-b00460b93ae5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="de7c701b-488f-4846-8d73-ccd794157522" Title="ShapeGroup - методы" Url="html/27b52d2a-c701-0ca7-bb37-e23dcad66c1a.htm">
+        <HelpTOCNode Title="Add - метод" Url="html/7115c686-e46a-c232-ee6a-1eda7624ec87.htm" />
+        <HelpTOCNode Title="ApplyCalculator - метод" Url="html/a4c2c46a-7426-c4ed-77c0-96f5918895e9.htm" />
+        <HelpTOCNode Title="GetEnumerator - метод" Url="html/c87e4fbb-ed30-aeaa-e9f5-bd7afefebe1b.htm" />
+        <HelpTOCNode Title="Remove - метод" Url="html/01dfa4c7-3ef7-9c02-6407-0a083ad00337.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a5d21394-1b00-4b13-8f3d-210f95970277" Title="ShapeMeasureCalculator - класс" Url="html/1b647058-0ee1-ae11-049b-ac9c83cf46b5.htm">
+      <HelpTOCNode Title="ShapeMeasureCalculator - конструктор" Url="html/44ca7e46-7c8b-c837-73de-83bdbf90b466.htm" />
+      <HelpTOCNode Id="3d30072c-5b14-4811-8c9e-f5fa44a3a942" Title="ShapeMeasureCalculator - методы" Url="html/b9ae64a2-c5a9-ab57-43e3-5de76e868af2.htm">
+        <HelpTOCNode Id="100eed16-a61d-44da-84e2-9b12ef8d9bed" Title="Calculate - метод" Url="html/558b0c39-6d86-a3d4-528f-a67cff049ded.htm">
+          <HelpTOCNode Title="Calculate(Circle) - метод" Url="html/8b6625a7-650d-377c-de5e-240796125b82.htm" />
+          <HelpTOCNode Title="Calculate(Rectangle) - метод" Url="html/668f6b2f-593b-7267-2983-82683e5efc87.htm" />
+          <HelpTOCNode Title="Calculate(ShapeGroup) - метод" Url="html/574479c0-6f06-8992-d8ec-5afc23acbe31.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4ddf4492-efc9-46bc-906b-b938feb6613c" Title="Vector2D - структура" Url="html/40ccea87-d0d9-a8f6-12ef-ff8be544faaf.htm">
+      <HelpTOCNode Title="Vector2D - конструктор" Url="html/60fe99f9-971f-9a0d-7719-dc639f72d084.htm" />
+      <HelpTOCNode Id="652ae11e-5fe5-42eb-838b-8decd1bf4d55" Title="Vector2D - методы" Url="html/eef70bd7-6581-283e-0245-bcbc66a56fd1.htm">
+        <HelpTOCNode Id="a16e0690-d0ef-4876-9bb1-3773129ea8ee" Title="Equals - метод" Url="html/d2f46dbc-221c-5af2-69a6-c7d051ff4c96.htm">
+          <HelpTOCNode Title="Equals(Object) - метод" Url="html/10974116-6b1f-aff4-508e-0b668e2e9a74.htm" />
+          <HelpTOCNode Title="Equals(Vector2D) - метод" Url="html/44c2e95e-a25e-dd88-6a15-d46de45ed981.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode - метод" Url="html/50d3104a-98b4-062e-4a00-f4c2daada449.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="82c866a5-5da2-419d-94dd-51bc6f7bb419" Title="Vector2D - поля" Url="html/13658c48-2b16-3aab-6e34-f9002c9e196c.htm">
+        <HelpTOCNode Title="X - поле" Url="html/e18621f7-ea99-c009-ae7e-6eced8a78660.htm" />
+        <HelpTOCNode Title="Y - поле" Url="html/70e97b51-1ed5-4efa-238b-2236c0d5908e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

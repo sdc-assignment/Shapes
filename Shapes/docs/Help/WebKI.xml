@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Add метод">
+    <HelpKINode Title="Circle.Add - метод" Url="html/558ac04f-bd50-4c4a-020b-26e135f0275b.htm" />
+    <HelpKINode Title="Rectangle.Add - метод" Url="html/11cd10aa-e8f6-abc8-1f05-c33961098ef0.htm" />
+    <HelpKINode Title="Shape.Add - метод" Url="html/d5417357-1c49-ea21-0f50-2b3b7636089a.htm" />
+    <HelpKINode Title="ShapeGroup.Add - метод" Url="html/7115c686-e46a-c232-ee6a-1eda7624ec87.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApplyCalculator метод">
+    <HelpKINode Title="Circle.ApplyCalculator - метод" Url="html/bc43f63b-4d0a-f482-5e76-9aa3924c6006.htm" />
+    <HelpKINode Title="Rectangle.ApplyCalculator - метод" Url="html/df4f7f0e-93da-00eb-bf6b-640a0c4469ca.htm" />
+    <HelpKINode Title="Shape.ApplyCalculator - метод" Url="html/92cfc669-de20-87da-5dcf-35e5c6ec8adf.htm" />
+    <HelpKINode Title="ShapeGroup.ApplyCalculator - метод" Url="html/a4c2c46a-7426-c4ed-77c0-96f5918895e9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AreaCalculator - класс">
+    <HelpKINode Title="AreaCalculator - класс" Url="html/cdb8821a-7570-bee4-9d3c-92b1a1edb97d.htm" />
+    <HelpKINode Title="конструктор" Url="html/795459de-bd0c-6eba-be86-cd13190d4a0d.htm" />
+    <HelpKINode Title="методы" Url="html/33998bb2-c6a6-0ea3-e719-b7fb789a6f27.htm" />
+    <HelpKINode Title="о AreaCalculator - класс" Url="html/cdb8821a-7570-bee4-9d3c-92b1a1edb97d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AreaCalculator.AreaCalculator конструктор" Url="html/795459de-bd0c-6eba-be86-cd13190d4a0d.htm" />
+  <HelpKINode Title="AreaCalculator.Calculate метод" Url="html/616c2177-81d1-8bfb-eb62-bd5c59b5722d.htm" />
+  <HelpKINode Title="Calculate метод">
+    <HelpKINode Title="AreaCalculator.Calculate - метод" Url="html/616c2177-81d1-8bfb-eb62-bd5c59b5722d.htm" />
+    <HelpKINode Title="PerimeterCalculator.Calculate - метод" Url="html/e4b4ee33-0657-6bdc-88de-326a1aed1d31.htm" />
+    <HelpKINode Title="ShapeMeasureCalculator.Calculate - метод" Url="html/558b0c39-6d86-a3d4-528f-a67cff049ded.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Center свойство" Url="html/e813f6b3-ae3e-f9de-bec9-a41682b98a4a.htm" />
+  <HelpKINode Title="Circle - класс">
+    <HelpKINode Title="Circle - класс" Url="html/c1d942f6-7e72-3b74-9490-5cb63d093c08.htm" />
+    <HelpKINode Title="конструктор" Url="html/bcae5b44-1e1c-9216-bc5b-20bcdaef0345.htm" />
+    <HelpKINode Title="методы" Url="html/73eb45dc-7ec9-03b8-2ac5-914b0178d3d8.htm" />
+    <HelpKINode Title="о Circle - класс" Url="html/c1d942f6-7e72-3b74-9490-5cb63d093c08.htm" />
+    <HelpKINode Title="свойства" Url="html/aded3d90-909c-ce40-9379-11ed63302c31.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Circle.Add метод" Url="html/558ac04f-bd50-4c4a-020b-26e135f0275b.htm" />
+  <HelpKINode Title="Circle.ApplyCalculator метод" Url="html/bc43f63b-4d0a-f482-5e76-9aa3924c6006.htm" />
+  <HelpKINode Title="Circle.Center свойство" Url="html/e813f6b3-ae3e-f9de-bec9-a41682b98a4a.htm" />
+  <HelpKINode Title="Circle.Circle конструктор" Url="html/bcae5b44-1e1c-9216-bc5b-20bcdaef0345.htm" />
+  <HelpKINode Title="Circle.GetEnumerator метод" Url="html/5d69eb2f-312d-c6e2-b0ab-9c285c8a248f.htm" />
+  <HelpKINode Title="Circle.Radius свойство" Url="html/9890d430-1203-4342-5044-b55918689f73.htm" />
+  <HelpKINode Title="Circle.Remove метод" Url="html/748feb89-c576-90dc-d532-c806064b918d.htm" />
+  <HelpKINode Title="Equals метод" Url="html/d2f46dbc-221c-5af2-69a6-c7d051ff4c96.htm" />
+  <HelpKINode Title="GetEnumerator метод">
+    <HelpKINode Title="Circle.GetEnumerator - метод" Url="html/5d69eb2f-312d-c6e2-b0ab-9c285c8a248f.htm" />
+    <HelpKINode Title="Rectangle.GetEnumerator - метод" Url="html/f2da1748-d6da-979c-299e-0094e3e7a243.htm" />
+    <HelpKINode Title="Shape.GetEnumerator - метод" Url="html/601b9972-247e-a801-fc67-92f0e326b263.htm" />
+    <HelpKINode Title="ShapeGroup.GetEnumerator - метод" Url="html/c87e4fbb-ed30-aeaa-e9f5-bd7afefebe1b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetHashCode метод" Url="html/50d3104a-98b4-062e-4a00-f4c2daada449.htm" />
+  <HelpKINode Title="GroupOperator свойство" Url="html/29df54d4-abb6-11c7-eb93-628cb4331745.htm" />
+  <HelpKINode Title="LeftTop свойство" Url="html/07063d9f-e5d6-52cc-8aea-56d8f7e22c1f.htm" />
+  <HelpKINode Title="PerimeterCalculator - класс">
+    <HelpKINode Title="PerimeterCalculator - класс" Url="html/39679c2f-5abe-c365-e06c-3cf6c851febb.htm" />
+    <HelpKINode Title="конструктор" Url="html/31a08149-eff1-2195-12fa-b304979adea8.htm" />
+    <HelpKINode Title="методы" Url="html/2a0c1c65-6ff3-fa87-d889-61cb8fabbfc2.htm" />
+    <HelpKINode Title="о PerimeterCalculator - класс" Url="html/39679c2f-5abe-c365-e06c-3cf6c851febb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PerimeterCalculator.Calculate метод" Url="html/e4b4ee33-0657-6bdc-88de-326a1aed1d31.htm" />
+  <HelpKINode Title="PerimeterCalculator.PerimeterCalculator конструктор" Url="html/31a08149-eff1-2195-12fa-b304979adea8.htm" />
+  <HelpKINode Title="Radius свойство" Url="html/9890d430-1203-4342-5044-b55918689f73.htm" />
+  <HelpKINode Title="Rectangle - класс">
+    <HelpKINode Title="Rectangle - класс" Url="html/53ea8fbb-c475-3ae1-f586-84013308ac52.htm" />
+    <HelpKINode Title="конструктор" Url="html/61020b07-5d08-21fe-5b30-d7b2eddb6170.htm" />
+    <HelpKINode Title="методы" Url="html/0f878b37-4980-ff7a-ce7c-245fddec65fe.htm" />
+    <HelpKINode Title="о Rectangle - класс" Url="html/53ea8fbb-c475-3ae1-f586-84013308ac52.htm" />
+    <HelpKINode Title="свойства" Url="html/7d1d830f-2cf7-606c-81a3-36a6d56ae521.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Rectangle.Add метод" Url="html/11cd10aa-e8f6-abc8-1f05-c33961098ef0.htm" />
+  <HelpKINode Title="Rectangle.ApplyCalculator метод" Url="html/df4f7f0e-93da-00eb-bf6b-640a0c4469ca.htm" />
+  <HelpKINode Title="Rectangle.GetEnumerator метод" Url="html/f2da1748-d6da-979c-299e-0094e3e7a243.htm" />
+  <HelpKINode Title="Rectangle.LeftTop свойство" Url="html/07063d9f-e5d6-52cc-8aea-56d8f7e22c1f.htm" />
+  <HelpKINode Title="Rectangle.Rectangle конструктор" Url="html/61020b07-5d08-21fe-5b30-d7b2eddb6170.htm" />
+  <HelpKINode Title="Rectangle.Remove метод" Url="html/575c90ab-0427-4596-bd52-ba1c5b508c54.htm" />
+  <HelpKINode Title="Rectangle.Size свойство" Url="html/559ebb03-aa7f-c751-0649-6c3849cbf279.htm" />
+  <HelpKINode Title="Remove метод">
+    <HelpKINode Title="Circle.Remove - метод" Url="html/748feb89-c576-90dc-d532-c806064b918d.htm" />
+    <HelpKINode Title="Rectangle.Remove - метод" Url="html/575c90ab-0427-4596-bd52-ba1c5b508c54.htm" />
+    <HelpKINode Title="Shape.Remove - метод" Url="html/ad1baac6-2026-98db-c61c-bae3a7e6a1e6.htm" />
+    <HelpKINode Title="ShapeGroup.Remove - метод" Url="html/01dfa4c7-3ef7-9c02-6407-0a083ad00337.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Seed свойство" Url="html/22f8d300-de62-ba4d-61cf-b00460b93ae5.htm" />
+  <HelpKINode Title="Shape - класс">
+    <HelpKINode Title="Shape - класс" Url="html/fa3783be-7a77-e2ff-14d2-f6f5a0214074.htm" />
+    <HelpKINode Title="конструктор" Url="html/a63111c8-54f0-2866-c8ac-30cfabc042bf.htm" />
+    <HelpKINode Title="методы" Url="html/23fa9a63-bd27-052a-8b3a-94e13714907a.htm" />
+    <HelpKINode Title="о Shape - класс" Url="html/fa3783be-7a77-e2ff-14d2-f6f5a0214074.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Shape.Add метод" Url="html/d5417357-1c49-ea21-0f50-2b3b7636089a.htm" />
+  <HelpKINode Title="Shape.ApplyCalculator метод" Url="html/92cfc669-de20-87da-5dcf-35e5c6ec8adf.htm" />
+  <HelpKINode Title="Shape.GetEnumerator метод" Url="html/601b9972-247e-a801-fc67-92f0e326b263.htm" />
+  <HelpKINode Title="Shape.Remove метод" Url="html/ad1baac6-2026-98db-c61c-bae3a7e6a1e6.htm" />
+  <HelpKINode Title="Shape.Shape конструктор" Url="html/a63111c8-54f0-2866-c8ac-30cfabc042bf.htm" />
+  <HelpKINode Title="ShapeGroup - класс">
+    <HelpKINode Title="ShapeGroup - класс" Url="html/53ef3768-360d-a9c4-8851-b2f2e6467804.htm" />
+    <HelpKINode Title="конструктор" Url="html/0b2bcefb-e8a5-6871-87b4-62bd7ba72d61.htm" />
+    <HelpKINode Title="методы" Url="html/27b52d2a-c701-0ca7-bb37-e23dcad66c1a.htm" />
+    <HelpKINode Title="о ShapeGroup - класс" Url="html/53ef3768-360d-a9c4-8851-b2f2e6467804.htm" />
+    <HelpKINode Title="свойства" Url="html/b194e599-124e-b520-c649-f0ba446aaf2a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShapeGroup.Add метод" Url="html/7115c686-e46a-c232-ee6a-1eda7624ec87.htm" />
+  <HelpKINode Title="ShapeGroup.ApplyCalculator метод" Url="html/a4c2c46a-7426-c4ed-77c0-96f5918895e9.htm" />
+  <HelpKINode Title="ShapeGroup.GetEnumerator метод" Url="html/c87e4fbb-ed30-aeaa-e9f5-bd7afefebe1b.htm" />
+  <HelpKINode Title="ShapeGroup.GroupOperator свойство" Url="html/29df54d4-abb6-11c7-eb93-628cb4331745.htm" />
+  <HelpKINode Title="ShapeGroup.Remove метод" Url="html/01dfa4c7-3ef7-9c02-6407-0a083ad00337.htm" />
+  <HelpKINode Title="ShapeGroup.Seed свойство" Url="html/22f8d300-de62-ba4d-61cf-b00460b93ae5.htm" />
+  <HelpKINode Title="ShapeGroup.ShapeGroup конструктор" Url="html/0b2bcefb-e8a5-6871-87b4-62bd7ba72d61.htm" />
+  <HelpKINode Title="ShapeMeasureCalculator - класс">
+    <HelpKINode Title="ShapeMeasureCalculator - класс" Url="html/1b647058-0ee1-ae11-049b-ac9c83cf46b5.htm" />
+    <HelpKINode Title="конструктор" Url="html/44ca7e46-7c8b-c837-73de-83bdbf90b466.htm" />
+    <HelpKINode Title="методы" Url="html/b9ae64a2-c5a9-ab57-43e3-5de76e868af2.htm" />
+    <HelpKINode Title="о ShapeMeasureCalculator - класс" Url="html/1b647058-0ee1-ae11-049b-ac9c83cf46b5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShapeMeasureCalculator.Calculate метод" Url="html/558b0c39-6d86-a3d4-528f-a67cff049ded.htm" />
+  <HelpKINode Title="ShapeMeasureCalculator.ShapeMeasureCalculator конструктор" Url="html/44ca7e46-7c8b-c837-73de-83bdbf90b466.htm" />
+  <HelpKINode Title="Shapes - пространство имён" Url="html/242ce71e-57bd-d428-9beb-2638958f7b55.htm" />
+  <HelpKINode Title="Shapes.AreaCalculator - класс" Url="html/cdb8821a-7570-bee4-9d3c-92b1a1edb97d.htm" />
+  <HelpKINode Title="Shapes.Circle - класс" Url="html/c1d942f6-7e72-3b74-9490-5cb63d093c08.htm" />
+  <HelpKINode Title="Shapes.PerimeterCalculator - класс" Url="html/39679c2f-5abe-c365-e06c-3cf6c851febb.htm" />
+  <HelpKINode Title="Shapes.Rectangle - класс" Url="html/53ea8fbb-c475-3ae1-f586-84013308ac52.htm" />
+  <HelpKINode Title="Shapes.Shape - класс" Url="html/fa3783be-7a77-e2ff-14d2-f6f5a0214074.htm" />
+  <HelpKINode Title="Shapes.ShapeGroup - класс" Url="html/53ef3768-360d-a9c4-8851-b2f2e6467804.htm" />
+  <HelpKINode Title="Shapes.ShapeMeasureCalculator - класс" Url="html/1b647058-0ee1-ae11-049b-ac9c83cf46b5.htm" />
+  <HelpKINode Title="Shapes.Vector2D - структура" Url="html/40ccea87-d0d9-a8f6-12ef-ff8be544faaf.htm" />
+  <HelpKINode Title="Size свойство" Url="html/559ebb03-aa7f-c751-0649-6c3849cbf279.htm" />
+  <HelpKINode Title="Vector2D - структура">
+    <HelpKINode Title="Vector2D - структура" Url="html/40ccea87-d0d9-a8f6-12ef-ff8be544faaf.htm" />
+    <HelpKINode Title="конструктор" Url="html/60fe99f9-971f-9a0d-7719-dc639f72d084.htm" />
+    <HelpKINode Title="методы" Url="html/eef70bd7-6581-283e-0245-bcbc66a56fd1.htm" />
+    <HelpKINode Title="о Vector2D - структура" Url="html/40ccea87-d0d9-a8f6-12ef-ff8be544faaf.htm" />
+    <HelpKINode Title="поля" Url="html/13658c48-2b16-3aab-6e34-f9002c9e196c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Vector2D.Equals метод" Url="html/d2f46dbc-221c-5af2-69a6-c7d051ff4c96.htm" />
+  <HelpKINode Title="Vector2D.GetHashCode метод" Url="html/50d3104a-98b4-062e-4a00-f4c2daada449.htm" />
+  <HelpKINode Title="Vector2D.Vector2D конструктор" Url="html/60fe99f9-971f-9a0d-7719-dc639f72d084.htm" />
+  <HelpKINode Title="Vector2D.X поле" Url="html/e18621f7-ea99-c009-ae7e-6eced8a78660.htm" />
+  <HelpKINode Title="Vector2D.Y поле" Url="html/70e97b51-1ed5-4efa-238b-2236c0d5908e.htm" />
+  <HelpKINode Title="X поле" Url="html/e18621f7-ea99-c009-ae7e-6eced8a78660.htm" />
+  <HelpKINode Title="Y поле" Url="html/70e97b51-1ed5-4efa-238b-2236c0d5908e.htm" />
+</HelpKI>

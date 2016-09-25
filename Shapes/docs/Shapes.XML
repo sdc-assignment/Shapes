@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shapes</name>
+    </assembly>
+    <members>
+        <member name="T:Shapes.AreaCalculator">
+            <summary>
+            Калькулятор для вычисления площади. Паттерн посетитель.
+            </summary>
+        </member>
+        <member name="M:Shapes.AreaCalculator.Calculate(Shapes.Circle)">
+            <summary>
+            Вычисление площади круга.
+            </summary>
+            <param name="circle">Круг, для которого вычисляется площадь.</param>
+            <returns>Значение площади.</returns>
+        </member>
+        <member name="M:Shapes.AreaCalculator.Calculate(Shapes.Rectangle)">
+            <summary>
+            Вычисление площади прямоугольника.
+            </summary>
+            <param name="rectangle">Прямоугольник, для которого вычисляется площадь.</param>
+            <returns>Значнеие площади.</returns>
+        </member>
+        <member name="T:Shapes.Circle">
+            <summary>
+            Круг.
+            </summary>
+        </member>
+        <member name="P:Shapes.Circle.Radius">
+            <summary>
+            Радиус круга.
+            </summary>
+            <exception cref="T:System.ArgumentException">При попытке задать отрицательное значение радиуса.</exception>
+        </member>
+        <member name="P:Shapes.Circle.Center">
+            <summary>
+            Координаты центра круга.
+            </summary>
+        </member>
+        <member name="M:Shapes.Circle.#ctor(System.Double,Shapes.Vector2D)">
+            <summary>
+            Конструктор.
+            </summary>
+            <param name="radius">Радиус.</param>
+            <param name="center">Координаты центра.</param>
+        </member>
+        <member name="M:Shapes.Circle.ApplyCalculator(Shapes.ShapeMeasureCalculator)">
+            <summary>
+            Использование вычислителя меры. Паттерн посетитель.
+            </summary>
+            <param name="calculator">Калькулятор, используемый для вычисления.</param>
+            <returns>Значение меры.</returns>
+        </member>
+        <member name="M:Shapes.Circle.Add(Shapes.Shape)">
+            <summary>
+            Добавление дочерней фигуры.
+            </summary>
+            <param name="shapeToAdd">Фигура для добавления в иерархию.</param>
+            <returns>
+            Всегда возвращает <see langword="false"/>, так как не может иметь потомков.
+            </returns>
+        </member>
+        <member name="M:Shapes.Circle.Remove(Shapes.Shape)">
+            <summary>
+            Удаление дочерней фигуры.
+            </summary>
+            <param name="shapeToRemove">Фигура, которую требуется удалить.</param>
+            <returns>
+            Всегда возвращает <see langword="false"/>, так как не может иметь потомков.
+            </returns>
+        </member>
+        <member name="M:Shapes.Circle.GetEnumerator">
+            <summary>
+            Возвращает итератор для перебора дочерних фигур.
+            </summary>
+            <returns>Возвращает пустой итератор, так как не может иметь потомков.</returns>
+        </member>
+        <member name="T:Shapes.ShapeMeasureCalculator">
+            <summary>
+            Базовый класс калькулятора для вычисления меры фигур. Паттерн посетитель.
+            </summary>
+        </member>
+        <member name="M:Shapes.ShapeMeasureCalculator.Calculate(Shapes.Circle)">
+            <summary>
+            Вычисление меры круга.
+            </summary>
+            <param name="circle">Круг, для которого вычисляется мера.</param>
+            <returns>Значнеие меры.</returns>
+        </member>
+        <member name="M:Shapes.ShapeMeasureCalculator.Calculate(Shapes.Rectangle)">
+            <summary>
+            Вычисление меры прямоугольника.
+            </summary>
+            <param name="rectangle">Прямоугольник, для которого вычисляется мера.</param>
+            <returns>Значнеие меры.</returns>
+        </member>
+        <member name="M:Shapes.ShapeMeasureCalculator.Calculate(Shapes.ShapeGroup)">
+            <summary>
+            Вычисление меры группы фигур.
+            </summary>
+            <param name="group">Группа фигур, для которой вычисляется мера.</param>
+            <returns>Значнеие меры.</returns>
+        </member>
+        <member name="T:Shapes.PerimeterCalculator">
+            <summary>
+            Калькулятор для вычисления периметра. Паттерн посетитель.
+            </summary>
+        </member>
+        <member name="M:Shapes.PerimeterCalculator.Calculate(Shapes.Circle)">
+            <summary>
+            Вычисление длины окружности.
+            </summary>
+            <param name="circle">Круг, для которого вычисляется длина окружности.</param>
+            <returns>Значнеие длины окружности.</returns>
+        </member>
+        <member name="M:Shapes.PerimeterCalculator.Calculate(Shapes.Rectangle)">
+            <summary>
+            Вычисление периметра прямоугольника.
+            </summary>
+            <param name="rectangle">Прямоугольник, для которого вычисляется периметр.</param>
+            <returns>Значнеие периметра.</returns>
+        </member>
+        <member name="T:Shapes.Rectangle">
+            <summary>
+            Прямоугольник.
+            </summary>
+        </member>
+        <member name="P:Shapes.Rectangle.LeftTop">
+            <summary>
+            Верхний левый угол прямоугольника.
+            </summary>
+        </member>
+        <member name="P:Shapes.Rectangle.Size">
+            <summary>
+            Ширина и высота прямоугольника.
+            </summary>
+            <exception cref="T:System.ArgumentException">При попытке задать отрицательную ширину или высоту.</exception>
+        </member>
+        <member name="M:Shapes.Rectangle.#ctor(Shapes.Vector2D,Shapes.Vector2D)">
+            <summary>
+            Конструктор.
+            </summary>
+            <param name="leftTop">Координаты верхнего левого угла.</param>
+            <param name="size">Размер.</param>
+        </member>
+        <member name="M:Shapes.Rectangle.ApplyCalculator(Shapes.ShapeMeasureCalculator)">
+            <summary>
+            Использование вычислителя меры. Паттерн посетитель.
+            </summary>
+            <param name="calculator">Калькулятор, используемый для вычисления.</param>
+            <returns>Значение меры.</returns>
+        </member>
+        <member name="M:Shapes.Rectangle.Add(Shapes.Shape)">
+            <summary>
+            Добавление дочерней фигуры.
+            </summary>
+            <param name="shapeToAdd">Фигура для добавления в иерархию.</param>
+            <returns>
+            Всегда возвращает <see langword="false"/>, так как не может иметь потомков.
+            </returns>
+        </member>
+        <member name="M:Shapes.Rectangle.Remove(Shapes.Shape)">
+            <summary>
+            Удаление дочерней фигуры.
+            </summary>
+            <param name="shapeToRemove">Фигура, которую требуется удалить.</param>
+            <returns>
+            Всегда возвращает <see langword="false"/>, так как не может иметь потомков.
+            </returns>
+        </member>
+        <member name="M:Shapes.Rectangle.GetEnumerator">
+            <summary>
+            Возвращает итератор для перебора дочерних фигур.
+            </summary>
+            <returns>Возвращает пустой итератор, так как не может иметь потомков.</returns>
+        </member>
+        <member name="T:Shapes.Shape">
+            <summary>
+            Базовый класс фигуры. Паттерн компоновщик.
+            </summary>
+        </member>
+        <member name="M:Shapes.Shape.ApplyCalculator(Shapes.ShapeMeasureCalculator)">
+            <summary>
+            Использование вычислителя меры. Паттерн посетитель.
+            </summary>
+            <param name="calculator">Калькулятор, используемый для вычисления.</param>
+            <returns>Значение меры.</returns>
+        </member>
+        <member name="M:Shapes.Shape.Add(Shapes.Shape)">
+            <summary>
+            Добавление дочерней фигуры.
+            </summary>
+            <param name="shapeToAdd">Фигура для добавления в иерархию.</param>
+            <returns>
+            Возвращает <see langword="true"/>, если удалось добавить фигуру и <see langword="false"/> в противном случае.
+            </returns>
+        </member>
+        <member name="M:Shapes.Shape.Remove(Shapes.Shape)">
+            <summary>
+            Удаление дочерней фигуры.
+            </summary>
+            <param name="shapeToRemove">Фигура, которую требуется удалить.</param>
+            <returns>
+            Возвращает <see langword="true"/>, если удалось удалить фигуру и <see langword="false"/> в противном случае.
+            </returns>
+        </member>
+        <member name="M:Shapes.Shape.GetEnumerator">
+            <summary>
+            Возвращает итератор для перебора дочерних фигур.
+            </summary>
+            <returns>Итератор для перебора дочерних фигур.</returns>
+        </member>
+        <member name="T:Shapes.ShapeGroup">
+            <summary>
+            Класс группы фигур. Паттерн компоновщик.
+            </summary>
+        </member>
+        <member name="P:Shapes.ShapeGroup.GroupOperator">
+            <summary>
+            Оператор для свёртки меры дочерних фигур.
+            </summary>
+        </member>
+        <member name="P:Shapes.ShapeGroup.Seed">
+            <summary>
+            Начальное значение для свёртки меры дочерних фигур.
+            </summary>
+        </member>
+        <member name="M:Shapes.ShapeGroup.#ctor(System.Func{System.Double,System.Double,System.Double},System.Double)">
+            <summary>
+            Конструктор.
+            </summary>
+            <param name="groupOperator">Оператор для свёртки меры дочерних фигур.</param>
+            <param name="seed">Начальное значение для свёртки меры дочерних фигур.</param>
+        </member>
+        <member name="M:Shapes.ShapeGroup.ApplyCalculator(Shapes.ShapeMeasureCalculator)">
+            <summary>
+            Использует переданный калькулятор для вычисления меры дочерних фигур.
+            Выполняет свёртку полученных значений и <see cref="P:Shapes.ShapeGroup.Seed"/> оператором <see cref="P:Shapes.ShapeGroup.GroupOperator"/>.
+            Паттерн посетитель.
+            </summary>
+            <param name="calculator">Калькулятор, используемый для вычисления.</param>
+            <returns>Значение меры.</returns>
+        </member>
+        <member name="M:Shapes.ShapeGroup.Add(Shapes.Shape)">
+            <summary>
+            Добавление дочерней фигуры.
+            </summary>
+            <param name="shapeToAdd">Фигура для добавления в иерархию.</param>
+            <returns>
+            Возвращает <see langword="true"/>, если удалось добавить фигуру и <see langword="false"/> в противном случае.
+            </returns>
+        </member>
+        <member name="M:Shapes.ShapeGroup.Remove(Shapes.Shape)">
+            <summary>
+            Удаление дочерней фигуры.
+            </summary>
+            <param name="shapeToRemove">Фигура, которую требуется удалить.</param>
+            <returns>
+            Возвращает <see langword="true"/>, если удалось удалить фигуру и <see langword="false"/> в противном случае.
+            </returns>
+        </member>
+        <member name="M:Shapes.ShapeGroup.GetEnumerator">
+            <summary>
+            Возвращает итератор для перебора дочерних фигур.
+            </summary>
+            <returns>Итератор для перебора дочерних фигур.</returns>
+        </member>
+        <member name="F:Shapes.Vector2D.X">
+            <summary>
+            X-координата вектора.
+            </summary>
+        </member>
+        <member name="F:Shapes.Vector2D.Y">
+            <summary>
+            Y-координата вектора.
+            </summary>
+        </member>
+        <member name="M:Shapes.Vector2D.#ctor(System.Double,System.Double)">
+            <summary>
+            Конструктор.
+            </summary>
+            <param name="x">x-координата вектора.</param>
+            <param name="y">y-координата вектора.</param>
+        </member>
+        <member name="M:Shapes.Vector2D.GetHashCode">
+            <summary>
+            Возвращает хеш-код.
+            </summary>
+            
+            <returns>
+            32-битный знаковый целочисленный хеш-код.
+            </returns>
+        </member>
+        <member name="M:Shapes.Vector2D.Equals(Shapes.Vector2D)">
+            <summary>
+            Проверка на равенство другому Vector2D по значению.
+            </summary>
+            <param name="other">Вектор, равенство которому подлежит проверке.</param>
+            <returns>
+            Возвращает <see langword="true"/> если вектора равны и <see langword="false"/> в противном случае.
+            </returns>
+        </member>
+        <member name="M:Shapes.Vector2D.Equals(System.Object)">
+            <summary>
+            Проверка на равенство экземпляру object.
+            </summary>
+            <param name="other">Объект, равенство которому подлежит проверке.</param>
+            <returns>
+            Возвращает <see langword="true"/> если вектор и объект равны и <see langword="false"/> в противном случае.
+            </returns>
+        </member>
+    </members>
+</doc>

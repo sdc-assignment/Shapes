@@ -1,1 +1,1 @@
-# Shapes
+Документация лежит в \Shapes\docs.
